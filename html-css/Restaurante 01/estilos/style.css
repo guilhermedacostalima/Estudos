@@ -1,13 +1,5 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: "Insanibc" ;
-    src: url('Insanibc.tff') format('truetype');
-    font-weight: 50px;
-    color: blue;
-}
-
-
 body {
     background-color: rgb(211, 193, 193);
 }
@@ -27,7 +19,6 @@ nav {
     text-align: center;
     font-size: 30px;
     padding: 10px;
-    font-family: 'Insanibc'
 }
 
 nav > a {
@@ -35,6 +26,7 @@ nav > a {
     color: rgb(131, 62, 62);
     font-style: bold;
     padding: 30px;
+    font-family: 'minhafonte'
 }
 nav > a:hover {
         text-decoration: dashed;
